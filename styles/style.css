@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-size: xx-large;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: row-reverse;
+
+}
+p{
+    color: dimgray;
+}
+nav p{
+    padding: 2%;
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+.text{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.nevy-blue{
+    color: rgb(0, 39, 112);
+}
+.orange{
+    color: rgb(255, 180, 42);
+}
+.half-width img{
+    width: 70%;
+    height: 100%;
+    margin-left: 10%;
+}
+button{
+    margin-top: 5%;
+    width:20%;
+    padding: 2%;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,rgb(235, 133, 85),rgb(235, 57, 57));
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.third{
+    text-align: center;
+    margin-top: 0;
+    padding: 2%;
+    background-color: rgb(241, 241, 241);
+}
+span{
+    color: rgb(250, 88, 59);
+}
+.forth{
+    margin-top: 0;
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    
+}
+.forth h1{
+    text-align: center;
+}
+.card{
+    width: 28%;
+    height: 15%;
+    margin-left: 5%;
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    border-radius: 10px;
+    background-color: white;
+}
+.card img{
+    width: 80%;
+    margin: auto;
+}
+.fifth{
+    margin: 0% 10%;
+    padding: 5%;
+}
+.full-blue{
+    background-image: linear-gradient(45deg,rgb(71, 191, 238),rgb(45, 45, 253));
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.full-blue h1{
+    color: white;
+    margin-top: 5%;
+}
+.full-blue button{
+    border-radius: 10px;
+    color: white;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
